@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0" />
+    
+    <link rel="stylesheet" href="format.css">
+    <title>Review-R by Daniel Cormier (corm0096)</title>   
+    <script type="text/javascript" src="js/hammer.js"></script>
+    <script type="text/javascript" src="js/review.js"></script>
+   
+</head>
+<body>
+<div id="reviews" data-vis="disp"></div>
+    
+<div id="write" data-vis="hide">
+    <h1 id="write_title">Add a review</h1>
+    <p>Title</p>
+    <input type="text" id="revtitle" size="35">
+    <p>Your Review</p>
+    <textarea rows="3" cols="35" id="theReview"></textarea>
+    
+    <div id="starzone">
+        <div id="s1">&#9734;</div>
+        <div id="s2">&#9734;</div>
+        <div id="s3">&#9734;</div>
+        <div id="s4">&#9734;</div>
+        <div id="s5">&#9734;</div>
+    </div>
+    <p id="warning"></p>
+    <canvas id="canvas"></canvas>
+
+</div>
+ 
+<div id="read" data-vis="hide"></div>
+<div id="add" class="fab">+</div>
+<div id="save" class="fab" data-vis="hide">&#10003;</div>
+<script charset="utf-8" src="cordova.js"></script>
+</body>

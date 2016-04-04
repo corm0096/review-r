@@ -1,0 +1,134 @@
+*
+{
+    border-collapse: collapse;
+    margin:0;
+    padding:0;
+
+}
+.stars
+{
+    display:inline-block;
+    
+    width:30%;
+}
+
+.title
+{
+    display:inline-block;
+    width:70%;
+}
+
+.reviewitem
+{
+    border-left:1px black solid;
+    border-right:1px black solid;
+    border-bottom:1px black solid;
+    
+
+/* //   width:100%;*/
+}
+
+[data-vis=disp]
+{
+    display:block;
+}
+
+[data-vis=hide]
+{
+    display:none;
+}
+
+.fab{
+  background-color: hsl(0, 80%, 50%);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  line-height: 3.6rem;
+  vertical-align:text-top;
+  box-shadow: 0 2px 12px hsla(0, 0%, 0%, 0.64);
+  position:fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+#save
+{
+    background-color:hsl(135,80%,50%);
+}
+
+#s1, #s2, #s3, #s4, #s5
+{
+    display:inline;
+}
+
+#canvas
+{
+    margin-left:5%;
+    width:90%;
+}
+
+#write p
+{
+    line-height: 1em;
+    padding-top: 0.75em;
+    margin-left:5%;
+}
+
+#write h1
+{
+     margin-left:5%;
+}
+
+
+#warning
+{
+    color: red;
+}
+
+#revtitle, #theReview
+{
+    width:90%;
+    margin-left:5%;
+}
+.movtitle
+{
+    text-align:center;
+}
+
+
+.reviewImage
+{
+    width:100%;
+    height:auto;
+}
+
+#starzone
+{
+    font-size:3em;
+    margin-left:5%;
+}
+
+#reviews
+{
+    width:95%;
+    margin-left:2.5%;
+}
+
+#reviews h1
+{
+    text-align: center;
+}
+
+#read
+{
+    width:95%;
+    margin-left:2.5%;
+}
+
+#read h1
+{
+    width:100%;
+}
